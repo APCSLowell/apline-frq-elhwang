@@ -1,8 +1,8 @@
 public class APLine
 {
-  private Aval;
-  private Bval;
-  private Cval;
+  private int Aval;
+  private int Bval;
+  private int Cval;
  public APLine(int a, int b, int c){
     Aval = a;
     Bval = b;
