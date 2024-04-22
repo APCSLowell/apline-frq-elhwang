@@ -9,7 +9,7 @@ public class APLine
     Cval = c;
   }
   public double getSlope(){
-    return (double)-Aval/Bval
+    return (double)-Aval/Bval;
   }
   public boolean isOnLine(int x, int y){
     if(((Aval*x) + (Bval*y) + Cval) == 0)
